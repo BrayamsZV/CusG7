@@ -1,0 +1,1582 @@
+{
+  "name": "reporte_departamento",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "4mbCzxiju5eayhsi3x5LhP",
+    "node": "100:30",
+    "version": "4351810213",
+    "component-id": "e1ca02bf627b3c148a794f2bdbcd89c979068bc1"
+  },
+  "default": "ReporteDepartamento",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "HeaderRD"
+      },
+      {
+        "type": "group",
+        "id": "blockDepartamentoMontoTotal"
+      },
+      {
+        "type": "group",
+        "id": "blockInfoInquilino"
+      },
+      {
+        "type": "group",
+        "id": "blockInfoGastos"
+      },
+      {
+        "type": "group",
+        "id": "btnGenerarReporte"
+      },
+      {
+        "type": "vector",
+        "id": "backgrounHeaderRD"
+      },
+      {
+        "type": "text",
+        "id": "textHeaderRD"
+      },
+      {
+        "type": "group",
+        "id": "btnCerrarRD"
+      },
+      {
+        "type": "group",
+        "id": "GroupCerrarRD"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundDepaMontoTotal"
+      },
+      {
+        "type": "text",
+        "id": "textCodDepartamento"
+      },
+      {
+        "type": "text",
+        "id": "textMontoTotal"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundInfoInquilino"
+      },
+      {
+        "type": "text",
+        "id": "textNombreInquilino"
+      },
+      {
+        "type": "text",
+        "id": "textNacimientoInquilino"
+      },
+      {
+        "type": "text",
+        "id": "textDniInquilino"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundInfoGastos"
+      },
+      {
+        "type": "group",
+        "id": "blockTotalGastoLaboral"
+      },
+      {
+        "type": "group",
+        "id": "blockTotalConsumo"
+      },
+      {
+        "type": "group",
+        "id": "blockTotalMantenimiento"
+      },
+      {
+        "type": "group",
+        "id": "blockTotalOtros"
+      },
+      {
+        "type": "group",
+        "id": "blockTotalDelMes"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundTotalGastoLaboral"
+      },
+      {
+        "type": "text",
+        "id": "textGastoLaboral"
+      },
+      {
+        "type": "text",
+        "id": "textMontoGastoLaboral"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundTotalConsumo"
+      },
+      {
+        "type": "text",
+        "id": "textMontoConsumo"
+      },
+      {
+        "type": "text",
+        "id": "textConsumo"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundTotalMantenimiento"
+      },
+      {
+        "type": "text",
+        "id": "textMontolMantenimiento"
+      },
+      {
+        "type": "text",
+        "id": "textMantenimiento"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundTotalOtros"
+      },
+      {
+        "type": "text",
+        "id": "textMontoOtros"
+      },
+      {
+        "type": "text",
+        "id": "textOtros"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundTotalMes"
+      },
+      {
+        "type": "text",
+        "id": "textMontoTotalMes"
+      },
+      {
+        "type": "text",
+        "id": "textTotalMes"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundBtnGenerarReporte"
+      },
+      {
+        "type": "text",
+        "id": "textBtnGenerarReporte"
+      }
+    ],
+    "modes": {
+      "ReporteDepartamento": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "HeaderRD",
+              "blockDepartamentoMontoTotal",
+              "blockInfoInquilino",
+              "blockInfoGastos",
+              "btnGenerarReporte"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "HeaderRD",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "361.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgrounHeaderRD",
+              "textHeaderRD",
+              "btnCerrarRD"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockDepartamentoMontoTotal",
+            "border-radius": "20.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "34.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "85.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "291.5"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundDepaMontoTotal",
+              "textCodDepartamento",
+              "textMontoTotal"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockInfoInquilino",
+            "border-radius": "30.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "11.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "207.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "337.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundInfoInquilino",
+              "textNombreInquilino",
+              "textNacimientoInquilino",
+              "textDniInquilino"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockInfoGastos",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "11.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "357.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "337.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "303.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundInfoGastos",
+              "blockTotalGastoLaboral",
+              "blockTotalConsumo",
+              "blockTotalMantenimiento",
+              "blockTotalOtros",
+              "blockTotalDelMes"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "btnGenerarReporte",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "96.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "685.0"
+              }
+            },
+            "tap-handler": "$btnGenerarReporte",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundBtnGenerarReporte",
+              "textBtnGenerarReporte"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "backgrounHeaderRD",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "361.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "vector-content": "backgroun_header_rd.svg"
+          },
+          {
+            "id": "textHeaderRD",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "50.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "20.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$textHeader",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.3639999389648438",
+            "typeface": "Nunito"
+          },
+          {
+            "id": "btnCerrarRD",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "315.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "17.0"
+              }
+            },
+            "tap-handler": "$btnCerrar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "GroupCerrarRD"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "GroupCerrarRD",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.085113525390625"
+              }
+            },
+            "is-structured": "false",
+            "children": "$iconCerrar",
+            "clip-content": "false"
+          },
+          {
+            "id": "backgroundDepaMontoTotal",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "291.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              }
+            },
+            "vector-content": "background_depa_monto_total.svg"
+          },
+          {
+            "id": "textCodDepartamento",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textCodDepartamento",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "20.0",
+            "line-height": "1.5",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "textMontoTotal",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textMontoTotal",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "20.0",
+            "line-height": "1.5",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "backgroundInfoInquilino",
+            "border-radius": "30.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2.1316282072803006e-14"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "337.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.0"
+              }
+            },
+            "vector-content": "background_info_inquilino.svg"
+          },
+          {
+            "id": "textNombreInquilino",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "34.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "21.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "270.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "81.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$textNombreInquilino",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "textNacimientoInquilino",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "34.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "23.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "270.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "81.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$textNacimientoInquilino",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "textDniInquilino",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "33.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "22.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "270.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "81.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$textDniInquilino",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "backgroundInfoGastos",
+            "border-radius": "30.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2.842170943040401e-14"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "337.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "303.0"
+              }
+            },
+            "vector-content": "background_info_gastos.svg"
+          },
+          {
+            "id": "blockTotalGastoLaboral",
+            "border-radius": "10.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "21.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundTotalGastoLaboral",
+              "textGastoLaboral",
+              "textMontoGastoLaboral"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockTotalConsumo",
+            "border-radius": "10.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "75.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundTotalConsumo",
+              "textMontoConsumo",
+              "textConsumo"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockTotalMantenimiento",
+            "border-radius": "10.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "128.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundTotalMantenimiento",
+              "textMontolMantenimiento",
+              "textMantenimiento"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockTotalOtros",
+            "border-radius": "10.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "181.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundTotalOtros",
+              "textMontoOtros",
+              "textOtros"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockTotalDelMes",
+            "border-radius": "10.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "236.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundTotalMes",
+              "textMontoTotalMes",
+              "textTotalMes"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "backgroundTotalGastoLaboral",
+            "border-radius": "10.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "background_total_gasto_laboral.svg"
+          },
+          {
+            "id": "textGastoLaboral",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "5.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "161.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textGastoLaboral",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "textMontoGastoLaboral",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "212.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "5.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "86.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "122.32044198895028",
+              "saturation": "0.9282051282051281",
+              "value": "0.7647058823529411"
+            },
+            "text-content": "$textMontoGastoLaboral",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "backgroundTotalConsumo",
+            "border-radius": "10.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "background_total_consumo.svg"
+          },
+          {
+            "id": "textMontoConsumo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "212.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "86.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "122.32044198895028",
+              "saturation": "0.9282051282051281",
+              "value": "0.7647058823529411"
+            },
+            "text-content": "$textMontoConsumo",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "textConsumo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "5.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "161.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textConsumo",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "backgroundTotalMantenimiento",
+            "border-radius": "10.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "background_total_mantenimiento.svg"
+          },
+          {
+            "id": "textMontolMantenimiento",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "212.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "86.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "122.32044198895028",
+              "saturation": "0.9282051282051281",
+              "value": "0.7647058823529411"
+            },
+            "text-content": "$textMontolMantenimiento",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "textMantenimiento",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "174.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textMantenimiento",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "backgroundTotalOtros",
+            "border-radius": "10.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "49.0"
+              }
+            },
+            "vector-content": "background_total_otros.svg"
+          },
+          {
+            "id": "textMontoOtros",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "212.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "5.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "86.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "122.32044198895028",
+              "saturation": "0.9282051282051281",
+              "value": "0.7647058823529411"
+            },
+            "text-content": "$textMontoOtros",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "textOtros",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "161.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textOtros",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "backgroundTotalMes",
+            "border-radius": "10.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "308.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "background_total_mes.svg"
+          },
+          {
+            "id": "textMontoTotalMes",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "212.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "86.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "122.32044198895028",
+              "saturation": "0.9282051282051281",
+              "value": "0.7647058823529411"
+            },
+            "text-content": "$textMontoTotalMes",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "textTotalMes",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "3.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "161.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textTotalMes",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "17.0",
+            "line-height": "1.764705810546875",
+            "typeface": "Kadwa"
+          },
+          {
+            "id": "backgroundBtnGenerarReporte",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "vector-content": "background_btn_generar_reporte.svg"
+          },
+          {
+            "id": "textBtnGenerarReporte",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "52.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textBtnGenerarReporte",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "2.0078125",
+            "typeface": "Kadwa"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "btnGenerarReporte": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "textHeader": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "btnCerrar": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "iconCerrar": {
+      "data-type": "list-item",
+      "required": false,
+      "description": ""
+    },
+    "textCodDepartamento": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textMontoTotal": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textNombreInquilino": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textNacimientoInquilino": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textDniInquilino": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textGastoLaboral": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textMontoGastoLaboral": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textMontoConsumo": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textConsumo": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textMontolMantenimiento": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textMantenimiento": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textMontoOtros": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textOtros": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textMontoTotalMes": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textTotalMes": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textBtnGenerarReporte": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "ReporteDepartamento",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      },
+      "parameters": {
+        "textHeader": "Condominios CONDOSA",
+        "iconCerrar": [
+          {
+            "type": "vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.085113525390625
+              }
+            },
+            "vector-content": "ellipse_btn_cerrar_rd.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.52454696757426
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.24021614917826
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.360410690307617
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.08573853969573975
+              }
+            },
+            "vector-content": "line_btn_cerrar2rd.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.524629474430663
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.40596325370208
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.36024284362793
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.08562435954809189
+              }
+            },
+            "vector-content": "line_btn_cerrar1rd.svg"
+          }
+        ],
+        "textCodDepartamento": "[ E23-101 ]\n",
+        "textMontoTotal": "\nRECAUDADO: S/ 250.90",
+        "textNombreInquilino": "Inquilino: Jose  Miguel  Gutierrez\n",
+        "textNacimientoInquilino": "\nFecha Nacimiento: 16/07/1989\n\n",
+        "textDniInquilino": "\n\nDNI: 19457836\n",
+        "textGastoLaboral": "Total Gasto Laboral ",
+        "textMontoGastoLaboral": "S/ 100.00",
+        "textMontoConsumo": "S/ 80.00",
+        "textConsumo": "Total Consumo ",
+        "textMontolMantenimiento": "S/ 40.00",
+        "textMantenimiento": "Total Mantenimiento ",
+        "textMontoOtros": "S/ 30.90",
+        "textOtros": "Total Otros ",
+        "textMontoTotalMes": "S/ 250.90",
+        "textTotalMes": "Total Del Mes",
+        "textBtnGenerarReporte": "Generar Reporte"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

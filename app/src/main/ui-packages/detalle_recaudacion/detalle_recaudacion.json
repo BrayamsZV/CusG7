@@ -1,0 +1,1031 @@
+{
+  "name": "detalle_recaudacion",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "4mbCzxiju5eayhsi3x5LhP",
+    "node": "100:31",
+    "version": "4351810213",
+    "component-id": "32f66114767119772d8a4d0c50667ae40a38b892"
+  },
+  "default": "DetalleRecaudacion",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "HeaderDR"
+      },
+      {
+        "type": "group",
+        "id": "blockTotalReciboMes"
+      },
+      {
+        "type": "group",
+        "id": "blockInfoDepartamentoDR"
+      },
+      {
+        "type": "group",
+        "id": "blockDetallesReciboDR"
+      },
+      {
+        "type": "text",
+        "id": "textEstadoRecaudacionDR"
+      },
+      {
+        "type": "text",
+        "id": "texImporteDR"
+      },
+      {
+        "type": "text",
+        "id": "textFechaDR"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundHeaderDR"
+      },
+      {
+        "type": "text",
+        "id": "textHeaderDR"
+      },
+      {
+        "type": "group",
+        "id": "btnCerrarDR"
+      },
+      {
+        "type": "group",
+        "id": "GroupCerrarDR"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundReciboMes"
+      },
+      {
+        "type": "text",
+        "id": "textReciboMes"
+      },
+      {
+        "type": "text",
+        "id": "textSumaDetallesAdicionales"
+      },
+      {
+        "type": "text",
+        "id": "textMontoSumaDetallesAdicionales"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundInfoDepartamento"
+      },
+      {
+        "type": "text",
+        "id": "textInquilino"
+      },
+      {
+        "type": "text",
+        "id": "textPiso"
+      },
+      {
+        "type": "text",
+        "id": "textParticipacion"
+      },
+      {
+        "type": "text",
+        "id": "textNumero"
+      },
+      {
+        "type": "text",
+        "id": "textArea"
+      },
+      {
+        "type": "text",
+        "id": "textTotalGastoDiverso"
+      },
+      {
+        "type": "text",
+        "id": "textGastoDiverso"
+      },
+      {
+        "type": "text",
+        "id": "textTotalGastoLAC"
+      },
+      {
+        "type": "text",
+        "id": "textGastoLAC"
+      },
+      {
+        "type": "text",
+        "id": "textTitleDetalles"
+      }
+    ],
+    "modes": {
+      "DetalleRecaudacion": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "HeaderDR",
+              "blockTotalReciboMes",
+              "blockInfoDepartamentoDR",
+              "blockDetallesReciboDR",
+              "textEstadoRecaudacionDR",
+              "texImporteDR",
+              "textFechaDR"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9607843137254902"
+            }
+          },
+          {
+            "id": "HeaderDR",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "361.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundHeaderDR",
+              "textHeaderDR",
+              "btnCerrarDR"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockTotalReciboMes",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "22.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "601.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "316.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "106.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundReciboMes",
+              "textReciboMes",
+              "textSumaDetallesAdicionales",
+              "textMontoSumaDetallesAdicionales"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockInfoDepartamentoDR",
+            "border-radius": "15.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "22.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "86.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "316.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "169.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundInfoDepartamento",
+              "textInquilino",
+              "textPiso",
+              "textParticipacion",
+              "textNumero",
+              "textArea"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockDetallesReciboDR",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "35.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "386.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "228.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "158.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "textTotalGastoDiverso",
+              "textGastoDiverso",
+              "textTotalGastoLAC",
+              "textGastoLAC",
+              "textTitleDetalles"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "textEstadoRecaudacionDR",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "36.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "280.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.04938271604938272",
+              "value": "0.3176470588235294"
+            },
+            "text-content": "$textEstadoRecaudacion",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "texImporteDR",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "36.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "280.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.04938271604938272",
+              "value": "0.3176470588235294"
+            },
+            "text-content": "$texImporte",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textFechaDR",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "36.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "280.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.04938271604938272",
+              "value": "0.3176470588235294"
+            },
+            "text-content": "$textFecha",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "backgroundHeaderDR",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "361.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "vector-content": "background_header_dr.svg"
+          },
+          {
+            "id": "textHeaderDR",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "50.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "20.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$textHeader",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.3639999389648438",
+            "typeface": "Nunito"
+          },
+          {
+            "id": "btnCerrarDR",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "317.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "17.0"
+              }
+            },
+            "tap-handler": "$btnCerrar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "GroupCerrarDR"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "GroupCerrarDR",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.085113525390625"
+              }
+            },
+            "is-structured": "false",
+            "children": "$iconCerrar",
+            "clip-content": "false"
+          },
+          {
+            "id": "backgroundReciboMes",
+            "border-radius": "15.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "316.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "106.0"
+              }
+            },
+            "vector-content": "background_recibo_mes.svg"
+          },
+          {
+            "id": "textReciboMes",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "68.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "14.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$textReciboMes",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textSumaDetallesAdicionales",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "17.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "53.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$textSumaDetallesAdicionales",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textMontoSumaDetallesAdicionales",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "17.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "53.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$textMontoSumaDetallesAdicionales",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "backgroundInfoDepartamento",
+            "border-radius": "15.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "316.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "169.0"
+              }
+            },
+            "vector-content": "background_info_departamento.svg"
+          },
+          {
+            "id": "textInquilino",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "24.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "15.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "$textInquilino",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.2102272931267233",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textPiso",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "24.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "15.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "$textPiso",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.2102272931267233",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textParticipacion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "24.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "15.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "$textParticipacion",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.2102272931267233",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textNumero",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "24.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "15.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "$textNumero",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.2102272931267233",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textArea",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "24.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "15.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "1.0",
+              "value": "0.5019607843137255"
+            },
+            "text-content": "$textArea",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "17.0",
+            "line-height": "1.2102272931267233",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textTotalGastoDiverso",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "122.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.04938271604938272",
+              "value": "0.3176470588235294"
+            },
+            "annotated-text-content": "$textTotalGastoDiverso",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textGastoDiverso",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "122.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.04938271604938272",
+              "value": "0.3176470588235294"
+            },
+            "text-content": "$textGastoDiverso",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textTotalGastoLAC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "44.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.04938271604938272",
+              "value": "0.3176470588235294"
+            },
+            "text-content": "$textTotalGastoLAC",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textGastoLAC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "44.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.04938271604938272",
+              "value": "0.3176470588235294"
+            },
+            "annotated-text-content": "$textGastoLAC",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "textTitleDetalles",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textDetalles",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "textEstadoRecaudacion": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "texImporte": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textFecha": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textHeader": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "btnCerrar": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "iconCerrar": {
+      "data-type": "list-item",
+      "required": false,
+      "description": ""
+    },
+    "textReciboMes": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textSumaDetallesAdicionales": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textMontoSumaDetallesAdicionales": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textInquilino": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textPiso": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textParticipacion": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textNumero": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textArea": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textTotalGastoDiverso": {
+      "data-type": "annotated-text-content",
+      "required": false,
+      "description": ""
+    },
+    "textGastoDiverso": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textTotalGastoLAC": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textGastoLAC": {
+      "data-type": "annotated-text-content",
+      "required": false,
+      "description": ""
+    },
+    "textDetalles": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "DetalleRecaudacion",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      },
+      "parameters": {
+        "textEstadoRecaudacion": "\n\nEstado de Recaudación:  Validado",
+        "texImporte": "\nImporte: S/. 215.90\n  ",
+        "textFecha": "Fecha: 2023-09-13",
+        "textHeader": "Detalle de Recaudación",
+        "iconCerrar": [
+          {
+            "type": "vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.085113525390625
+              }
+            },
+            "vector-content": "ellipse_btn_cerrar_dr.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.52454696757426
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.24021614917826
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.360410690307617
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.08573853969573975
+              }
+            },
+            "vector-content": "line_btn_cerrar2dr.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.524629474430663
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.40596325370208
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.36024284362793
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.08562435954809189
+              }
+            },
+            "vector-content": "line_btn_cerrar1dr.svg"
+          }
+        ],
+        "textReciboMes": "Total Recibo del Mes",
+        "textSumaDetallesAdicionales": "Suma de detalles adicionales:\n",
+        "textMontoSumaDetallesAdicionales": "\n250.90",
+        "textInquilino": "\n\n\n\nInquilino: Jose Miguel Gutierrez\nMolina",
+        "textPiso": "\n\n\nPiso: 3",
+        "textParticipacion": "\n\nParticipación: 28.52",
+        "textNumero": "\nNúmero: 20",
+        "textArea": "Área: 250",
+        "textTotalGastoDiverso": {
+          "text": "\nTotal Tipo Gasto: 100.25",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 1
+            },
+            {
+              "span-start": 1,
+              "span-length": 24,
+              "annotated-text-style": {
+                "text-size": 14.0
+              }
+            }
+          ]
+        },
+        "textGastoDiverso": "Gasto Diversos\n",
+        "textTotalGastoLAC": "Gasto Laboral Administracion y\nContabilidad\n",
+        "textGastoLAC": {
+          "text": "\n\nTotal Tipo Gasto: 115.65",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 2
+            },
+            {
+              "span-start": 2,
+              "span-length": 24,
+              "annotated-text-style": {
+                "text-size": 14.0
+              }
+            }
+          ]
+        },
+        "textDetalles": "Detalles del Recibo:"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,1455 @@
+{
+  "name": "menu_condominios",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "4mbCzxiju5eayhsi3x5LhP",
+    "node": "100:26",
+    "version": "4351810213",
+    "component-id": "b5ea6038957be9b4dee72c3b3c48d7c6b7bef2ee"
+  },
+  "default": "MenuCondominios",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "FooterMC"
+      },
+      {
+        "type": "group",
+        "id": "blockCondominio3"
+      },
+      {
+        "type": "group",
+        "id": "blockCondominio2"
+      },
+      {
+        "type": "group",
+        "id": "blockCondominio1"
+      },
+      {
+        "type": "group",
+        "id": "HeaderMC"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundFooterMC"
+      },
+      {
+        "type": "group",
+        "id": "ventanaBuscar"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundVentanaBuscar"
+      },
+      {
+        "type": "text",
+        "id": "textVentanaBuscar"
+      },
+      {
+        "type": "image",
+        "id": "IconoVentanaBuscar"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundCondominio3"
+      },
+      {
+        "type": "text",
+        "id": "textNombreCondominio3"
+      },
+      {
+        "type": "image",
+        "id": "imageCondominio3"
+      },
+      {
+        "type": "image",
+        "id": "iconoEdificio3"
+      },
+      {
+        "type": "group",
+        "id": "btnDetalle3"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundBtnDetalle3"
+      },
+      {
+        "type": "image",
+        "id": "iconoBtnDetalle3"
+      },
+      {
+        "type": "text",
+        "id": "textBtnDetalle3"
+      },
+      {
+        "type": "vector",
+        "id": "BackgroundCondominio2"
+      },
+      {
+        "type": "text",
+        "id": "textNombreCondominio2"
+      },
+      {
+        "type": "image",
+        "id": "imageCondominio2"
+      },
+      {
+        "type": "image",
+        "id": "iconoEdificio2"
+      },
+      {
+        "type": "group",
+        "id": "btnDetalle2"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundBtnDetalle2"
+      },
+      {
+        "type": "image",
+        "id": "iconoBtnDetalle2"
+      },
+      {
+        "type": "text",
+        "id": "textBtnDetalle2"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundCondominio1"
+      },
+      {
+        "type": "text",
+        "id": "textNombreCondominio1"
+      },
+      {
+        "type": "image",
+        "id": "iconoEdificio1"
+      },
+      {
+        "type": "image",
+        "id": "imageCondominio1"
+      },
+      {
+        "type": "group",
+        "id": "btnDetalle1"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundBtnDetalle1"
+      },
+      {
+        "type": "image",
+        "id": "iconoBtnDetalle1"
+      },
+      {
+        "type": "text",
+        "id": "textBtnDetalle1"
+      },
+      {
+        "type": "vector",
+        "id": "backgroundHeaderMC"
+      },
+      {
+        "type": "text",
+        "id": "textHeaderMC"
+      },
+      {
+        "type": "group",
+        "id": "btnCerrarMC"
+      },
+      {
+        "type": "group",
+        "id": "GroupCerrarMC"
+      }
+    ],
+    "modes": {
+      "MenuCondominios": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "FooterMC",
+              "blockCondominio3",
+              "blockCondominio2",
+              "blockCondominio1",
+              "HeaderMC"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.9607843137254902"
+            }
+          },
+          {
+            "id": "FooterMC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "747.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "54.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundFooterMC",
+              "ventanaBuscar"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockCondominio3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "30.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "527.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "309.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "207.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundCondominio3",
+              "textNombreCondominio3",
+              "imageCondominio3",
+              "iconoEdificio3",
+              "btnDetalle3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockCondominio2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "30.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "307.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "309.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "207.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "BackgroundCondominio2",
+              "textNombreCondominio2",
+              "imageCondominio2",
+              "iconoEdificio2",
+              "btnDetalle2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "blockCondominio1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "27.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "80.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "309.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "207.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundCondominio1",
+              "textNombreCondominio1",
+              "iconoEdificio1",
+              "imageCondominio1",
+              "btnDetalle1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "HeaderMC",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "361.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundHeaderMC",
+              "textHeaderMC",
+              "btnCerrarMC"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "backgroundFooterMC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-2.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "54.0"
+              }
+            },
+            "vector-content": "background_footer_mc.svg"
+          },
+          {
+            "id": "ventanaBuscar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "25.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.0"
+              }
+            },
+            "tap-handler": "$ventanaBuscar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "318.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "38.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundVentanaBuscar",
+              "textVentanaBuscar",
+              "IconoVentanaBuscar"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "backgroundVentanaBuscar",
+            "border-radius": "20.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "318.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "38.0"
+              }
+            },
+            "vector-content": "background_ventana_buscar.svg"
+          },
+          {
+            "id": "textVentanaBuscar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "3.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "0.4980392156862745",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textVentanaBuscar",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "15.0",
+            "line-height": "1.3639999389648438",
+            "typeface": "Nunito"
+          },
+          {
+            "id": "IconoVentanaBuscar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-130.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "image-content": "$imageVentanaBuscar",
+            "scale": "cover"
+          },
+          {
+            "id": "backgroundCondominio3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "309.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "207.0"
+              }
+            },
+            "vector-content": "background_condominio3.svg"
+          },
+          {
+            "id": "textNombreCondominio3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "47.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "79.5"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textBarranca",
+            "overflow": "visible",
+            "text-size": "15.0",
+            "line-height": "1.3639999389648438",
+            "typeface": "Nunito Sans"
+          },
+          {
+            "id": "imageCondominio3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-25.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "309.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "157.0"
+              }
+            },
+            "image-content": "$imageCondominio3",
+            "scale": "cover"
+          },
+          {
+            "id": "iconoEdificio3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-94.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "69.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "66.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              }
+            },
+            "image-content": "$imageIconoEdificio3",
+            "scale": "cover"
+          },
+          {
+            "id": "btnDetalle3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "221.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "122.0"
+              }
+            },
+            "tap-handler": "$btnDetalle3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundBtnDetalle3",
+              "iconoBtnDetalle3",
+              "textBtnDetalle3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "backgroundBtnDetalle3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-2.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "vector-content": "background_btn_detalle3.svg"
+          },
+          {
+            "id": "iconoBtnDetalle3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-27.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-3.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "image-content": "$imageBtnDetalle3",
+            "scale": "cover"
+          },
+          {
+            "id": "textBtnDetalle3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "54.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textBtnDetalle3",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.0",
+            "line-height": "1.36399997364391",
+            "typeface": "Nunito"
+          },
+          {
+            "id": "BackgroundCondominio2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "309.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "207.0"
+              }
+            },
+            "vector-content": "background_condominio2.svg"
+          },
+          {
+            "id": "textNombreCondominio2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "47.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "79.5"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textBellavista",
+            "overflow": "visible",
+            "text-size": "15.0",
+            "line-height": "1.3639999389648438",
+            "typeface": "Nunito Sans"
+          },
+          {
+            "id": "imageCondominio2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-23.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "309.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "160.0"
+              }
+            },
+            "image-content": "$imageCondominio2",
+            "scale": "cover"
+          },
+          {
+            "id": "iconoEdificio2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-94.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "69.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "66.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              }
+            },
+            "image-content": "$imageIconoEdificio2",
+            "scale": "cover"
+          },
+          {
+            "id": "btnDetalle2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "221.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "122.0"
+              }
+            },
+            "tap-handler": "$btnDetalle2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundBtnDetalle2",
+              "iconoBtnDetalle2",
+              "textBtnDetalle2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "backgroundBtnDetalle2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-2.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "vector-content": "background_btn_detalle2.svg"
+          },
+          {
+            "id": "iconoBtnDetalle2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-27.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-3.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "image-content": "$imageBtnDetalle2",
+            "scale": "cover"
+          },
+          {
+            "id": "textBtnDetalle2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "54.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textBtnDetalle2",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.0",
+            "line-height": "1.36399997364391",
+            "typeface": "Nunito"
+          },
+          {
+            "id": "backgroundCondominio1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "309.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "207.0"
+              }
+            },
+            "vector-content": "background_condominio1.svg"
+          },
+          {
+            "id": "textNombreCondominio1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "79.5"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textBrisasDeNaranjal",
+            "overflow": "visible",
+            "text-size": "15.0",
+            "line-height": "1.3639999389648438",
+            "typeface": "Nunito Sans"
+          },
+          {
+            "id": "iconoEdificio1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-94.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "69.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "66.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "64.0"
+              }
+            },
+            "image-content": "$imageIconoEdificio",
+            "scale": "cover"
+          },
+          {
+            "id": "imageCondominio1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-22.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "309.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "162.0"
+              }
+            },
+            "image-content": "$imageCondominio1",
+            "scale": "cover"
+          },
+          {
+            "id": "btnDetalle1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "221.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "128.0"
+              }
+            },
+            "tap-handler": "$btnDetalle",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "backgroundBtnDetalle1",
+              "iconoBtnDetalle1",
+              "textBtnDetalle1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "backgroundBtnDetalle1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-2.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "vector-content": "background_btn_detalle1.svg"
+          },
+          {
+            "id": "iconoBtnDetalle1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-27.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-3.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "image-content": "$imageBtnDetalle",
+            "scale": "cover"
+          },
+          {
+            "id": "textBtnDetalle1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "54.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "22.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$textBtnDetalle",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "11.0",
+            "line-height": "1.36399997364391",
+            "typeface": "Nunito"
+          },
+          {
+            "id": "backgroundHeaderMC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "361.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "60.0"
+              }
+            },
+            "vector-content": "background_header_mc.svg"
+          },
+          {
+            "id": "textHeaderMC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-16.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "3.5"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$textHeader",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.3639999389648438",
+            "typeface": "Nunito"
+          },
+          {
+            "id": "btnCerrarMC",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "151.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "3.0425567626953125"
+              }
+            },
+            "tap-handler": "$btnCerrar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "GroupCerrarMC"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "GroupCerrarMC",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.085113525390625"
+              }
+            },
+            "is-structured": "false",
+            "children": "$iconCerrar",
+            "clip-content": "false"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "ventanaBuscar": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "textVentanaBuscar": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "imageVentanaBuscar": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "textBarranca": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "imageCondominio3": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "imageIconoEdificio3": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "btnDetalle3": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "imageBtnDetalle3": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "textBtnDetalle3": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textBellavista": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "imageCondominio2": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "imageIconoEdificio2": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "btnDetalle2": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "imageBtnDetalle2": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "textBtnDetalle2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textBrisasDeNaranjal": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "imageIconoEdificio": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "imageCondominio1": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "btnDetalle": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "imageBtnDetalle": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "textBtnDetalle": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textHeader": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "btnCerrar": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "iconCerrar": {
+      "data-type": "list-item",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "MenuCondominios",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      },
+      "parameters": {
+        "textVentanaBuscar": "Buscar Condominio",
+        "imageVentanaBuscar": "icono_ventana_buscar.png",
+        "textBarranca": "BARRANCA",
+        "imageCondominio3": "image_condominio3.png",
+        "imageIconoEdificio3": "icono_edificio3.png",
+        "imageBtnDetalle3": "icono_ventana_buscar.png",
+        "textBtnDetalle3": "DETALLE",
+        "textBellavista": "BELLAVISTA",
+        "imageCondominio2": "image_condominio2.png",
+        "imageIconoEdificio2": "icono_edificio3.png",
+        "imageBtnDetalle2": "icono_ventana_buscar.png",
+        "textBtnDetalle2": "DETALLE",
+        "textBrisasDeNaranjal": "BRISAS DE NARANJAL",
+        "imageIconoEdificio": "icono_edificio3.png",
+        "imageCondominio1": "image_condominio1.png",
+        "imageBtnDetalle": "icono_ventana_buscar.png",
+        "textBtnDetalle": "DETALLE",
+        "textHeader": "Condominios CONDOSA",
+        "iconCerrar": [
+          {
+            "type": "vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 30.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 32.085113525390625
+              }
+            },
+            "vector-content": "ellipse_btn_cerrar_mc.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.52448593241801
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.24021614917826
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.360410690307617
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.08573853969573975
+              }
+            },
+            "vector-content": "line_btn_cerrar2mc.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.524507404118163
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 15.40596325370208
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.36024284362793
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.08562435954809189
+              }
+            },
+            "vector-content": "line_btn_cerrar1mc.svg"
+          }
+        ]
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
